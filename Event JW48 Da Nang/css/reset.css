@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "BigCaslon";
+  src: url("../fonts/BigCaslon.ttf");
+}
+
+@font-face {
+  font-family: "Blacker";
+  src: url("../fonts/Blacker-Display-Regular-trial.ttf");
+}
+
+@font-face {
+  font-family: "DIN Alternate";
+  src: url("../fonts/DIN Alternate Bold.ttf");
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeue.ttc");
+}
+
+@font-face {
+  font-family: "SFUBaskerville";
+  src: url("../fonts/SFUBaskervilleBookItalic.TTF");
+}
+
+body,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul,ol,li {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+select:focus {
+	outline: none;
+}
+
+/*input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+*/
