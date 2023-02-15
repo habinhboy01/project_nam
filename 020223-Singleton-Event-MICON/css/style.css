@@ -1,0 +1,163 @@
+.bg-page {
+	background-image: url(../images/bg_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.img-logo {
+	text-align: center;
+}
+
+.img-logo img:nth-child(1) {
+	width: 45%;
+}
+
+.text-event {
+	font-family: "HelveticaNeue";
+	font-size: 18px;
+	font-weight: 400;
+	color: #E6E7E8;
+	text-align: justify;
+}
+
+.img-event {
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.img-event2 {
+	width: 100%;
+	height: auto;
+	position: relative;
+    left: 20%;
+}
+
+.content-event {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.img-event3 {
+	width: 100%;
+	height: auto;
+}
+
+.content-event2 {
+	position: relative;
+}
+
+.img-event4 {
+	position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.text-event2 {
+	background-color: #18216b;
+    font-family: "HelveticaNeue";
+    font-size: 16px;
+    font-weight: bold;
+    color: #EBB6D4;
+    border-top: 3px solid #bd7e88;
+    text-align: center;
+    font-style: italic;
+    padding: 30px 0;
+}
+
+.back-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	z-index: 10;
+	font-size: 30px;
+	color: #bd7e88;
+	transition: 0.5s;
+}
+
+.back-top:hover {
+	color: #bd7e88; 
+}
+
+@media(max-width: 1600px) {
+	.img-event2 {
+		left: 11%;
+	}
+
+	.img-event4 {
+		width: 32%;
+		height: auto;
+	}
+}
+
+@media(max-width: 1500px) {
+	.img-event2 {
+		left: 6%;
+	}
+}
+
+@media(max-width: 1400px) {
+	.img-event2 {
+		left: 14%;
+	}
+}
+
+@media(max-width: 1200px) {
+	.img-logo img:nth-child(1) {
+		width: 60%;
+	}
+
+	.img-logo img:nth-child(2) {
+		width: 100%;
+	}
+
+	.img-event2 {
+		position: unset;
+		left: 0;
+	}
+}
+
+@media(max-width: 991px) {
+	.img-event2 {
+		margin-top: 20px;
+	}
+
+	.img-event3,
+	.img-event4 {
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 740px) {
+	.img-logo img:nth-child(1) {
+		width: 80%;
+	}
+
+	.img-event {
+		margin-bottom: 20px;
+	}
+
+	.img-event4 {
+		position: unset;
+		width: 100%;
+	}
+}
+
+@media(max-width: 450px) {
+	.text-event {
+		font-size: 16px;
+	}
+
+	.text-event2 {
+		font-size: 11px;
+	}
+
+	.back-top {
+		display: none;
+	}
+}
